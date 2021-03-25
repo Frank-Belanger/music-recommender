@@ -1,0 +1,14 @@
+@import "variables";
+
+.suggestion-container {
+    grid-column-start: 4;
+    grid-row-start: 4;
+    background-color: $secondary-color;
+    height: 90%;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: end;
+}

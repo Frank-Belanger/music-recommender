@@ -1,0 +1,48 @@
+@import "variables";
+
+.hero-section-container {
+    grid-column-start: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 35% 65%;
+    flex-direction: column;    
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    background-color: $secondary-color;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.hero-playlist-container {
+    grid-row-start: 1;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    height: auto;
+    place-items: center;
+}
+
+.hero-playlist-icon {
+    height: 200px;
+    width: 200px;
+    justify-self: start;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.playlist-hero-info {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(6, auto);
+}
+
+.playlist-hero-title {
+    font-size: $font-size-xxxl;
+}
+
+.track {
+    grid-row-start: 2;
+}

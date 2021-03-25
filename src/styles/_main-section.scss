@@ -1,0 +1,11 @@
+@import "variables";
+
+.main-section {
+    display: grid;
+    grid-template-columns: 7vw 15vw 2vw 66vw 10vw;
+    grid-template-rows: 5vh 30vh 30vh 30vh 5vh;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
