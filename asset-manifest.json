@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/music-recommender/static/css/main.c8a91cc2.chunk.css",
-    "main.js": "/music-recommender/static/js/main.b8038046.chunk.js",
-    "main.js.map": "/music-recommender/static/js/main.b8038046.chunk.js.map",
+    "main.css": "/music-recommender/static/css/main.b70a758c.chunk.css",
+    "main.js": "/music-recommender/static/js/main.3db3241a.chunk.js",
+    "main.js.map": "/music-recommender/static/js/main.3db3241a.chunk.js.map",
     "runtime-main.js": "/music-recommender/static/js/runtime-main.6459ec7f.js",
     "runtime-main.js.map": "/music-recommender/static/js/runtime-main.6459ec7f.js.map",
     "static/js/2.1685b8ca.chunk.js": "/music-recommender/static/js/2.1685b8ca.chunk.js",
     "static/js/2.1685b8ca.chunk.js.map": "/music-recommender/static/js/2.1685b8ca.chunk.js.map",
     "index.html": "/music-recommender/index.html",
-    "static/css/main.c8a91cc2.chunk.css.map": "/music-recommender/static/css/main.c8a91cc2.chunk.css.map",
+    "static/css/main.b70a758c.chunk.css.map": "/music-recommender/static/css/main.b70a758c.chunk.css.map",
     "static/js/2.1685b8ca.chunk.js.LICENSE.txt": "/music-recommender/static/js/2.1685b8ca.chunk.js.LICENSE.txt",
     "static/media/main.scss": "/music-recommender/static/media/spotify-logo-md.1e166494.png"
   },
   "entrypoints": [
     "static/js/runtime-main.6459ec7f.js",
     "static/js/2.1685b8ca.chunk.js",
-    "static/css/main.c8a91cc2.chunk.css",
-    "static/js/main.b8038046.chunk.js"
+    "static/css/main.b70a758c.chunk.css",
+    "static/js/main.3db3241a.chunk.js"
   ]
 }
