@@ -3,7 +3,14 @@ import msToTime from "../../helpers/msToTime";
 import Context from "../../Context";
 
 export default function Track(props) {
-  const { FontAwesomeIcon, track, setTrack, setPlayer, audio, setAudio } = useContext(Context);
+  const {
+    FontAwesomeIcon,
+    track,
+    setTrack,
+    setPlayer,
+    audio,
+    setAudio,
+  } = useContext(Context);
 
   function handleSetTrack() {
     setTrack({
@@ -17,9 +24,8 @@ export default function Track(props) {
 
   function playPreview() {
     setAudio(new Audio(track.listOfTracksFromAPI[props.num].track.preview_url));
-    audio.play();    
     setPlayer({ isPlaying: true, state: "playing" });
-  };
+  }
 
   return (
     <div className="track" onClick={handleSetTrack}>
@@ -28,8 +34,8 @@ export default function Track(props) {
           <FontAwesomeIcon icon={["fas", "play-circle"]} />
         </button>
       ) : (
-        <div style={{justifySelf: "center", alignSelf: "center"}}>
-        <FontAwesomeIcon icon={["fas", "times"]}/>
+        <div style={{ justifySelf: "center", alignSelf: "center" }}>
+          <FontAwesomeIcon icon={["fas", "times"]} />
         </div>
       )}
 

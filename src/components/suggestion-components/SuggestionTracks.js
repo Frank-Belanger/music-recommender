@@ -25,7 +25,6 @@ export default function SuggestionTracks(props) {
 
   function playPreview() {
     setAudio(new Audio(suggestions.listOfTracksFromAPI[props.num].preview_url));
-    audio.play();    
     setPlayer({ isPlaying: true, state: "playing" });
   };
 
