@@ -39,23 +39,6 @@ function App() {
     state: "stopped"
   });
 
-  // Set the spotify player script in the DOM
-  useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://sdk.scdn.co/spotify-player.js";
-    document.body.appendChild(script);
-
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
-
-  useEffect(() => {
-    window.onSpotifyWebPlaybackSDKReady = () => {
-      // You can now initialize Spotify.Player and use the SDK
-    };
-  }, []);
-
   // Get a token
   useEffect(() => {
     axios("https://accounts.spotify.com/api/token", {
