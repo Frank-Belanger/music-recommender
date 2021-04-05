@@ -35,12 +35,12 @@ export default function ChooserContainer() {
                             name={item.name}
                             id={item.id}
                             href={item.href}
-                            icon={item.images[0].url}
+                            icon={item.images[0]?.url ? item.images[0].url : '../../../public/spotify-logo.jpg'}
                         />
                     ))
                 } else {
                     return (
-                        <div className="category-missing-message">
+                        <div className="category-missing-message missing-chooser-box-message">
                             {['Oops!', <br key={0}/>, 'You need to choose a category before selecting a playlist.']}
                         </div>
                     );
@@ -52,7 +52,7 @@ export default function ChooserContainer() {
     }, [ navIndex, category, playlist ]);
 
     useEffect(() => {        
-        setComponentToRender()
+        setComponentToRender();
     }, [ navIndex, setComponentToRender ]);    
         
     return (

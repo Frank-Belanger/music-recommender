@@ -6,9 +6,9 @@ export default function PlaylistHeroInfo(props) {
 
     return (
         //<div style={picStyle} className={(`${props?.addStyle ? props.addStyle : 'playlist-pic'}`)}/>
-        <div className="playlist-hero-info">
-            <div className="playlist-hero-title">{ playlist.selectedPlaylist ? playlist.selectedPlaylist.name : '' }</div>
-            <div className="playlist-hero-desc">{ playlist.selectedPlaylist ? playlist.selectedPlaylist.description : '' }</div>
+        <div className="hero-playlist-info">
+            <div className="hero-playlist-title">{ playlist.selectedPlaylist ? playlist.selectedPlaylist.name : '' }</div>
+            <div className="hero-playlist-desc">{ playlist.selectedPlaylist ? playlist.selectedPlaylist.description : '' }</div>
         </div>
     );
 }

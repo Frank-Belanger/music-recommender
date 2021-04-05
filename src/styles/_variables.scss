@@ -2,6 +2,8 @@ $main-font: 'Nunito Sans', sans-serif;
 
 $main-color: #eb9c62;
 $secondary-color: #060c0f;
+$tertiary-color: #808080;
+$teal-color: #28c3c9;
 $font-color: #ffffff;
 $accent-color: #1e6415;
 
@@ -14,9 +16,12 @@ $font-size-lg: 1.2rem;
 $font-size-xl: 1.5rem;
 $font-size-xxl: 2rem;
 $font-size-xxxl: 3rem;
+$font-size-xxxxl: 4rem;
 
 $default-suggestion-height: 10vh;
 $default-main-height: 90vh;
 
 $default-chooser-width: 25vw;
 $default-main-width: 75vw;
+
+$default-scrollbar-width: 1em;
