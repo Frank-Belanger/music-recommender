@@ -113,7 +113,7 @@ function App() {
       });
   }, [token, playlist.selectedPlaylist, setTrack]);
   
-  // Get recommendations
+  // Get recommendations 
   useEffect(() => {
     likedTrack.length > 0 &&
       axios(`https://api.spotify.com/v1/recommendations`, {
